@@ -46,7 +46,7 @@ WindUI:Popup({
 repeat task.wait() until Confirmed
 
 local Window = WindUI:CreateWindow({
-    Title = "Not Hub - Evade @ Premium (Version: 3.12)",
+    Title = "Not Hub - Evade @ Notty and Dahen",
     IconThemed = true,
     Icon = "star",
     Author = "Not Hub",
