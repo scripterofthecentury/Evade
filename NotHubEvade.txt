@@ -36,7 +36,7 @@ WindUI:Popup({
     Title = "Not Hub Loaded! - Evade",
     Icon = "star",
     IconThemed = true,
-    Content = "Not Hub'S TEAM | Join our (dsc.gg/Not Hub)",
+    Content = "Not Hub'S TEAM | Made by Notty and Dahen",
     Buttons = {
         { Title = "Cancel", Variant = "Secondary", Callback = function() end },
         { Title = "Continue", Icon = "arrow-right", Callback = function() Confirmed = true end, Variant = "Primary" }
@@ -49,7 +49,7 @@ local Window = WindUI:CreateWindow({
     Title = "Not Hub - Evade @ Premium (Version: 3.12)",
     IconThemed = true,
     Icon = "star",
-    Author = "Not Hub (dsc.gg/Not Hub)",
+    Author = "Not Hub",
     Size = UDim2.fromOffset(600, 400),
     Transparent = true,
     Theme = "Dark",
@@ -761,21 +761,8 @@ Niggatab:Button({
     Callback = function()
        print("[Not Hub] Join our Discord To view script update news")
     end
-}) 
- 
-Niggatab:Button({
-    Title = "Not Hub - Subscribe",
-    Callback = function()
-       print("[Not Hub] https://www.youtube.com/@officialNot Hub")
-    end
-}) 
+})  
 
-Niggatab:Button({
-    Title = "Not Hub - Discord",
-    Callback = function()
-       print("[Not Hub] https://www.dsc.gg/Not Hub")
-    end
-}) 
 
 -- ===== Esp Tab
 local ActiveEspPlayers = false
